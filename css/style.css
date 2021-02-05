@@ -1,7 +1,10 @@
 @import url("components/form.css");
 
 body {
-  background-color: #04b5a3;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-position: center;
   margin: 0;
   font-family: "Varela", sans-serif;
   margin-top: 50px;
