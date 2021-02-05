@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Airbnb home</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Your responsive signup form -->
+    <div class="container pt-5 ">
+      <div class="row justify-content-center">
+        <div id="box" class="col-12 col-md-6 col-lg-4 border pt-5">
+          <form  action="#">
+            <h2>Create your Account </h2>
+             <div class="form-row">
+            <!-- FIRST NAME FIELD -->
+            <div class="col-6">
+             <label for="first-name">First Name</label>
+              <input type="text"class="form-control" name="first-name" id="">
+            </div>
+            <!-- LAST NAME FIELD -->
+             <div class="col-6">
+                <label for="last-name">Last Name</label>
+                  <input class="form-control " type="text" name="last-name" id="">
+                </div>
+                  <!-- EMAIL FIELD --->
+             </div>
+                   <label for="your-email">Email</label>
+                 <input type="email" class="form-control" name="your-email" id="">
+            <!--- PASSWORD FIELD --->
+               <label for="your-password">Your Password</label>
+            <input type="Password" class="form-control" name="your-password" id="">
+            <div class="form-group">
+              <label for="referrer">How Do You Know Us?</label>
+            <select class="form-control">
+              <option value>Facebook</option>
+              <option value>Google</option>
+              <option value>Instagram</option>
+            </select>
+          </div>
+            <!---- BUTTON ----->
+            <input type="submit" name="Sign-up"class="btn btn-primary btn-lg w-100"" value="Sign Up"></input>
+         </form>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

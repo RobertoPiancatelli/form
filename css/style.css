@@ -1,0 +1,44 @@
+@import url("components/form.css");
+
+body {
+  background-color: #04b5a3;
+  margin: 0;
+  font-family: "Varela", sans-serif;
+  margin-top: 50px;
+}
+h1 {
+  font-family: "Varela", sans-serif;
+}
+
+
+label {
+  color: black;
+  font-weight: bold;
+  margin: 15px;
+}
+
+
+#box {
+ background-color: white;
+ border-radius: 4px;
+ box-shadow:3px 3px #888888;
+}
+
+.btn-primary {
+  background-color: #00c738;
+  color: black;
+  font-weight: bold;
+  border-color: green;
+  transition: all 0.9s ease 0s;
+
+}
+
+.btn-primary:hover {
+  color: black;
+  font-weight: lighter;
+  font-size: 30px;
+ background-color: lightgreen;
+box-shadow: inset 0 0 0 5px green;
+
+}
+
